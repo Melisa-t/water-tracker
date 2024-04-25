@@ -37,15 +37,21 @@ button {
     background: rgb(0, 45, 74);
 }
 
-.body-div {
+.info-container {
     border: solid rgb(0, 45, 74) 5px;
     border-radius: 10px;
     padding: 100px;
     background: white;
     max-width: 30%;
-    margin: auto;
 }
 
 #save-el {
     font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
 }
